@@ -1,3 +1,4 @@
+```python 
 python3 -m venv venv
 . venv/bin/activate
 pip install apache-superset
@@ -10,3 +11,4 @@ superset fab create-admin
 superset load_examples
 superset init
 superset run -p 8088 --with-threads --reload --debugger
+```
